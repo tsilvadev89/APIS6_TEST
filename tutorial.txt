@@ -1,0 +1,2 @@
+- Atualize os modelos ENV com suas respectivas chaves. (EDITE ARQUIVO .env.model) apague o .model após edição.
+
