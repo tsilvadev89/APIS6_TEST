@@ -27,7 +27,7 @@ load_dotenv()
 # initiating supabase
 supabase_url = os.environ.get("SUPABASE_URL")
 supabase_key = os.environ.get("SUPABASE_SERVICE_KEY")
-supabase: Client = create_client(supabase_url, supabase_key)
+supabase: Client = create_client(supabase_url, supabase_key) # type: ignore
 
 # initiating embeddings model
 embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
